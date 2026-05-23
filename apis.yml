@@ -1,0 +1,151 @@
+aid: worldcoin
+name: World (Worldcoin)
+description: >-
+  World (formerly Worldcoin, built by Tools for Humanity) is a
+  proof-of-personhood network combining biometric Orb verification, the
+  World App wallet, and World Chain - an OP Stack L2 prioritised for
+  verified humans. World's developer platform at docs.world.org exposes
+  World ID (anonymous proof of human), Mini Apps (apps distributed inside
+  World App via MiniKit), AgentKit (distinguishing human-backed agents from
+  bots), and World Chain (EVM RPC, contracts, indexers). World ID
+  integrations use IDKit (web/React widget) and the Verify API on the
+  developer portal at developer.worldcoin.org.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+position: Producer
+created: '2026-05-23'
+modified: '2026-05-23'
+tags:
+  - Proof of Personhood
+  - Identity
+  - World ID
+  - Mini Apps
+  - Blockchain
+  - World Chain
+  - Web3
+  - Biometrics
+  - SDKs
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/apis.yml
+specificationVersion: '0.20'
+apis:
+  - aid: worldcoin:world-id
+    name: World ID
+    description: >-
+      Anonymous proof-of-human credential. Users prove uniqueness via Orb
+      (highest assurance), government document with NFC, or selfie liveness
+      check (beta). Applications request a zero-knowledge proof tied to a
+      per-app nullifier so the user cannot sybil-attack the same action
+      twice while remaining unlinkable across apps.
+    humanURL: https://docs.world.org/world-id
+    baseURL: https://developer.worldcoin.org
+    tags:
+      - World ID
+      - Proof of Personhood
+      - Zero Knowledge
+    properties:
+      - type: Documentation
+        url: https://docs.world.org/world-id
+  - aid: worldcoin:verify-api
+    name: World ID Verify API
+    description: >-
+      Server-side verification endpoint that checks a World ID proof against
+      the action and signal the client used. Apps call /api/v2/verify with
+      the proof payload and receive a success / fail response plus the
+      nullifier hash for replay protection.
+    humanURL: https://docs.world.org/world-id/reference/api
+    baseURL: https://developer.worldcoin.org
+    tags:
+      - World ID
+      - Verification
+      - API
+    properties:
+      - type: Documentation
+        url: https://docs.world.org/world-id/reference/api
+  - aid: worldcoin:idkit
+    name: IDKit (Web / React Widget)
+    description: >-
+      Client-side widget for triggering a World ID verification from a web
+      or React app. Handles QR-code / deep-link handoff to World App, proof
+      collection, and callback to the host application.
+    humanURL: https://docs.world.org/world-id/idkit
+    baseURL: https://github.com/worldcoin/idkit-js
+    tags:
+      - SDK
+      - Web
+      - React
+    properties:
+      - type: Documentation
+        url: https://docs.world.org/world-id/idkit
+      - type: Repository
+        url: https://github.com/worldcoin/idkit-js
+  - aid: worldcoin:mini-apps
+    name: World Mini Apps (MiniKit)
+    description: >-
+      Mini Apps run inside World App and use MiniKit to access wallet
+      capabilities - payments in WLD / USDC, signing, World ID verification,
+      contacts, and notifications - without leaving the host app. Includes
+      MiniKit JS/React SDKs for building and distributing Mini Apps.
+    humanURL: https://docs.world.org/mini-apps
+    baseURL: https://docs.world.org/mini-apps
+    tags:
+      - Mini Apps
+      - MiniKit
+      - World App
+      - SDK
+    properties:
+      - type: Documentation
+        url: https://docs.world.org/mini-apps
+  - aid: worldcoin:agent-kit
+    name: AgentKit
+    description: >-
+      Toolkit and APIs for distinguishing human-backed agents from anonymous
+      bots and scripts by binding agent actions to a World ID proof. Used to
+      gate AI agents and automation in human-verified contexts.
+    humanURL: https://docs.world.org/agents/agent-kit/integrate
+    baseURL: https://docs.world.org/agents/agent-kit/integrate
+    tags:
+      - Agents
+      - AI
+      - Identity
+    properties:
+      - type: Documentation
+        url: https://docs.world.org/agents/agent-kit/integrate
+  - aid: worldcoin:world-chain
+    name: World Chain
+    description: >-
+      OP Stack Ethereum L2 designed to prioritise verified humans with
+      reduced fees and gas allowances for World ID-holders. EVM-compatible
+      with public RPC endpoints, block explorer, bridges, and contract
+      addresses for the WLD and USDC tokens.
+    humanURL: https://docs.world.org/world-chain
+    baseURL: https://worldchain-mainnet.g.alchemy.com/public
+    tags:
+      - Blockchain
+      - L2
+      - EVM
+      - OP Stack
+    properties:
+      - type: Documentation
+        url: https://docs.world.org/world-chain
+common:
+  - type: Website
+    url: https://world.org/
+  - type: Developers
+    url: https://world.org/developers
+  - type: Documentation
+    url: https://docs.world.org/
+  - type: LLMsIndex
+    url: https://docs.world.org/llms.txt
+  - type: Developer Portal
+    url: https://developer.worldcoin.org/
+  - type: Whitepaper
+    url: https://whitepaper.world.org/
+  - type: GitHub
+    url: https://github.com/worldcoin
+  - type: Support
+    url: https://t.me/worlddevelopersupport
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com
