@@ -11,7 +11,7 @@ description: >-
   integrations use IDKit (web/React widget) and the Verify API on the
   developer portal at developer.worldcoin.org.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 position: Producer
 created: '2026-05-23'
