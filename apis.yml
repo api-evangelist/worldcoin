@@ -138,7 +138,7 @@ common:
     url: https://docs.world.org/
   - type: LLMsIndex
     url: https://docs.world.org/llms.txt
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://developer.worldcoin.org/
   - type: Whitepaper
     url: https://whitepaper.world.org/
