@@ -130,6 +130,10 @@ apis:
       - type: Documentation
         url: https://docs.world.org/world-chain
 common:
+  - type: VulnerabilityDisclosure
+    url: security/worldcoin-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/worldcoin-domain-security.yml
   - type: Website
     url: https://world.org/
   - type: Developers
