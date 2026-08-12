@@ -142,6 +142,9 @@ apis:
       - type: Documentation
         url: https://docs.world.org/world-chain
 common:
+  - type: License
+    name: MIT
+    url: https://github.com/worldcoin/idkit-js/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/worldcoin-vulnerability-disclosure.yml
   - type: DomainSecurity
