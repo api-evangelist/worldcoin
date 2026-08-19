@@ -40,7 +40,7 @@ tags:
   - SDKs
 url: >-
   https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/apis.yml
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis:
   - aid: worldcoin:world-id
     name: World ID
