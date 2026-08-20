@@ -37,6 +37,16 @@ tags:
   - World Chain
   - Web3
   - Biometrics
+  - SDK
+tags_raw:
+  - Proof of Personhood
+  - Identity
+  - World ID
+  - Mini Apps
+  - Blockchain
+  - World Chain
+  - Web3
+  - Biometrics
   - SDKs
 url: >-
   https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/apis.yml
@@ -69,6 +79,9 @@ apis:
     humanURL: https://docs.world.org/world-id/reference/api
     baseURL: https://developer.worldcoin.org
     tags:
+      - World ID
+      - Verification
+    tags_raw:
       - World ID
       - Verification
       - API
@@ -118,6 +131,10 @@ apis:
     humanURL: https://docs.world.org/agents/agent-kit/integrate
     baseURL: https://docs.world.org/agents/agent-kit/integrate
     tags:
+      - Agents
+      - Artificial Intelligence
+      - Identity
+    tags_raw:
       - Agents
       - AI
       - Identity
