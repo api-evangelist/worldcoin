@@ -11,6 +11,18 @@ description: >-
   integrations use IDKit (web/React widget) and the Verify API on the
   developer portal at developer.worldcoin.org.
 type: Index
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
@@ -159,6 +171,14 @@ apis:
       - type: Documentation
         url: https://docs.world.org/world-chain
 common:
+  - type: IssueTracker
+    url: https://github.com/worldcoin/idkit-js/issues
+  - type: Releases
+    url: https://github.com/worldcoin/idkit-js/releases
+  - type: SecurityPolicy
+    url: https://github.com/worldcoin/idkit-js/blob/main/SECURITY.md
+  - type: ContributionGuide
+    url: https://github.com/worldcoin/idkit-js/blob/main/CONTRIBUTING.md
   - type: License
     name: MIT
     url: https://github.com/worldcoin/idkit-js/blob/main/LICENSE
