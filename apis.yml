@@ -171,6 +171,12 @@ apis:
       - type: Documentation
         url: https://docs.world.org/world-chain
 common:
+  - type: Plans
+    url: plans/worldcoin-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/worldcoin-rate-limits.yml
+  - type: FinOps
+    url: finops/worldcoin-finops.yml
   - url: https://world.org/blog
     type: Blog
   - type: IssueTracker
