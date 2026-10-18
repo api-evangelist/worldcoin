@@ -164,6 +164,11 @@ apis:
     baseURL: https://worldchain-mainnet.g.alchemy.com/public
     tags:
       - Blockchain
+      - Layer 2
+      - EVM
+      - OP Stack
+    tags_raw:
+      - Blockchain
       - L2
       - EVM
       - OP Stack
