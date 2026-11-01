@@ -1,4 +1,4 @@
-# worldcoin
+# World (Worldcoin)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-World (Worldcoin) — proof-of-personhood + World Chain + World ID
+World (formerly Worldcoin, built by Tools for Humanity) is a proof-of-personhood network combining biometric Orb verification, the World App wallet, and World Chain - an OP Stack L2 prioritised for verified humans. World's developer platform at docs.world.org exposes World ID (anonymous proof of human), Mini Apps (apps distributed inside World App via MiniKit), AgentKit (distinguishing human-backed agents from bots), and World Chain (EVM RPC, contracts, indexers). World ID integrations use IDKit (web/React widget) and the Verify API on the developer portal at developer.worldcoin.org.
+
+**Areas:** Proof of Personhood · Identity · World ID · Mini Apps · Blockchain · World Chain · Web3 · Biometrics · SDK
+
+## World (Worldcoin) on APIs.io
+
+Everything profiled for World (Worldcoin) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/worldcoin/](https://apis.io/providers/worldcoin/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [World ID](https://apis.io/apis/worldcoin/world-id/) — Anonymous proof-of-human credential. Users prove uniqueness via Orb (highest assurance), government document with NFC, or selfie liveness check (beta).…
+- [World ID Verify API](https://apis.io/apis/worldcoin/verify-api/) — Server-side verification endpoint that checks a World ID proof against the action and signal the client used. Apps call /api/v2/verify with the proof…
+- [IDKit (Web / React Widget)](https://apis.io/apis/worldcoin/idkit/) — Client-side widget for triggering a World ID verification from a web or React app. Handles QR-code / deep-link handoff to World App, proof collection, and…
+- [World Mini Apps (MiniKit)](https://apis.io/apis/worldcoin/mini-apps/) — Mini Apps run inside World App and use MiniKit to access wallet capabilities - payments in WLD / USDC, signing, World ID verification, contacts, and…
+- [AgentKit](https://apis.io/apis/worldcoin/agent-kit/) — Toolkit and APIs for distinguishing human-backed agents from anonymous bots and scripts by binding agent actions to a World ID proof. Used to gate AI agents…
+- [World Chain](https://apis.io/apis/worldcoin/world-chain/) — OP Stack Ethereum L2 designed to prioritise verified humans with reduced fees and gas allowances for World ID-holders. EVM-compatible with public RPC…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Worldcoin Domain Security](https://apis.io/security/worldcoin/worldcoin-domain-security/)
+- [Worldcoin Vulnerability Disclosure](https://apis.io/security/worldcoin/worldcoin-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Worldcoin Plans Pricing](https://apis.io/plans/worldcoin/worldcoin-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Worldcoin Rate Limits](https://apis.io/rate-limits/worldcoin/worldcoin-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Worldcoin Finops](https://apis.io/finops/worldcoin/worldcoin-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://world.org/)
+- [Documentation](https://docs.world.org/)
+- [Support](https://t.me/worlddevelopersupport)
+- [Blog](https://world.org/blog)
+
+## API Evangelist rating
+
+**Kin Score 23.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/worldcoin/](https://apis.io/providers/worldcoin/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for World (Worldcoin): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/worldcoin/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
